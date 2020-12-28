@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC037B0221C7B64E00E90D0D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC037B0121C7B64E00E90D0D /* HeaderView.swift */; };
+		DC037B1121C7C09500E90D0D /* ItalyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC037B1021C7C09500E90D0D /* ItalyViewCell.swift */; };
+		DC037B1321C7E33400E90D0D /* italyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC037B1221C7E33400E90D0D /* italyViewController.swift */; };
+		DC037B1A21C8018800E90D0D /* japanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC037B1921C8018800E90D0D /* japanViewController.swift */; };
+		DC037B1C21C801AB00E90D0D /* japanViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC037B1B21C801AB00E90D0D /* japanViewCell.swift */; };
+		DC037B2221C802B500E90D0D /* koreaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC037B2121C802B500E90D0D /* koreaViewCell.swift */; };
+		DC037B2421C802CF00E90D0D /* koreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC037B2321C802CF00E90D0D /* koreaViewController.swift */; };
+		DC24F55B21C81B49002E4239 /* thaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24F55A21C81B49002E4239 /* thaiViewController.swift */; };
+		DC24F55D21C81B60002E4239 /* americaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24F55C21C81B60002E4239 /* americaViewController.swift */; };
+		DC24F55F21C81B7D002E4239 /* britishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24F55E21C81B7D002E4239 /* britishViewController.swift */; };
+		DC24F56121C81B8F002E4239 /* britishViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24F56021C81B8F002E4239 /* britishViewCell.swift */; };
+		DC24F56321C81B9D002E4239 /* americaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24F56221C81B9D002E4239 /* americaViewCell.swift */; };
+		DC24F56521C81BAA002E4239 /* thaiViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24F56421C81BAA002E4239 /* thaiViewCell.swift */; };
+		DC24F56721C82C2A002E4239 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24F56621C82C2A002E4239 /* DetailViewController.swift */; };
+		DC24F56B21C85FC0002E4239 /* CIUWVPu.png in Resources */ = {isa = PBXBuildFile; fileRef = DC24F56A21C85FC0002E4239 /* CIUWVPu.png */; };
+		DC24F57021C860DC002E4239 /* SWULOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = DC24F56D21C860DB002E4239 /* SWULOGO.png */; };
+		DC24F57121C860DC002E4239 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC24F56E21C860DB002E4239 /* bg.jpg */; };
+		DC24F57221C860DC002E4239 /* cosci.png in Resources */ = {isa = PBXBuildFile; fileRef = DC24F56F21C860DB002E4239 /* cosci.png */; };
+		DC777DBC21C68E430028A881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC777DBB21C68E430028A881 /* AppDelegate.swift */; };
+		DC777DBE21C68E430028A881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC777DBD21C68E430028A881 /* ViewController.swift */; };
+		DC777DC121C68E430028A881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC777DBF21C68E430028A881 /* Main.storyboard */; };
+		DC777DC321C68E450028A881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC777DC221C68E450028A881 /* Assets.xcassets */; };
+		DC777DC621C68E450028A881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC777DC421C68E450028A881 /* LaunchScreen.storyboard */; };
+		DC777DD121C68E450028A881 /* foodcourtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC777DD021C68E450028A881 /* foodcourtTests.swift */; };
+		DC777DDC21C68E450028A881 /* foodcourtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC777DDB21C68E450028A881 /* foodcourtUITests.swift */; };
+		DC777DEE21C697730028A881 /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC777DED21C697730028A881 /* CollectionViewCell1.swift */; };
+		E98F690D21C8C8F100F200B5 /* 11345_1070177503034656_4865742145209074723_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E98F690C21C8C8F100F200B5 /* 11345_1070177503034656_4865742145209074723_n.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC777DCD21C68E450028A881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC777DB021C68E430028A881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC777DB721C68E430028A881;
+			remoteInfo = foodcourt;
+		};
+		DC777DD821C68E450028A881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC777DB021C68E430028A881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC777DB721C68E430028A881;
+			remoteInfo = foodcourt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC037B0121C7B64E00E90D0D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DC037B1021C7C09500E90D0D /* ItalyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItalyViewCell.swift; sourceTree = "<group>"; };
+		DC037B1221C7E33400E90D0D /* italyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = italyViewController.swift; sourceTree = "<group>"; };
+		DC037B1921C8018800E90D0D /* japanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japanViewController.swift; sourceTree = "<group>"; };
+		DC037B1B21C801AB00E90D0D /* japanViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japanViewCell.swift; sourceTree = "<group>"; };
+		DC037B2121C802B500E90D0D /* koreaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koreaViewCell.swift; sourceTree = "<group>"; };
+		DC037B2321C802CF00E90D0D /* koreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koreaViewController.swift; sourceTree = "<group>"; };
+		DC24F55A21C81B49002E4239 /* thaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thaiViewController.swift; sourceTree = "<group>"; };
+		DC24F55C21C81B60002E4239 /* americaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = americaViewController.swift; sourceTree = "<group>"; };
+		DC24F55E21C81B7D002E4239 /* britishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = britishViewController.swift; sourceTree = "<group>"; };
+		DC24F56021C81B8F002E4239 /* britishViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = britishViewCell.swift; sourceTree = "<group>"; };
+		DC24F56221C81B9D002E4239 /* americaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = americaViewCell.swift; sourceTree = "<group>"; };
+		DC24F56421C81BAA002E4239 /* thaiViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thaiViewCell.swift; sourceTree = "<group>"; };
+		DC24F56621C82C2A002E4239 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DC24F56A21C85FC0002E4239 /* CIUWVPu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CIUWVPu.png; path = meals/CIUWVPu.png; sourceTree = "<group>"; };
+		DC24F56D21C860DB002E4239 /* SWULOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SWULOGO.png; path = meals/SWULOGO.png; sourceTree = "<group>"; };
+		DC24F56E21C860DB002E4239 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = meals/bg.jpg; sourceTree = "<group>"; };
+		DC24F56F21C860DB002E4239 /* cosci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cosci.png; path = meals/cosci.png; sourceTree = "<group>"; };
+		DC777DB821C68E430028A881 /* foodcourt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodcourt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC777DBB21C68E430028A881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC777DBD21C68E430028A881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC777DC021C68E430028A881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC777DC221C68E450028A881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC777DC521C68E450028A881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC777DC721C68E450028A881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC777DCC21C68E450028A881 /* foodcourtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodcourtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC777DD021C68E450028A881 /* foodcourtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodcourtTests.swift; sourceTree = "<group>"; };
+		DC777DD221C68E450028A881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC777DD721C68E450028A881 /* foodcourtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodcourtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC777DDB21C68E450028A881 /* foodcourtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodcourtUITests.swift; sourceTree = "<group>"; };
+		DC777DDD21C68E450028A881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC777DED21C697730028A881 /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
+		E98F690C21C8C8F100F200B5 /* 11345_1070177503034656_4865742145209074723_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11345_1070177503034656_4865742145209074723_n.jpg; path = ../11345_1070177503034656_4865742145209074723_n.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC777DB521C68E430028A881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC777DC921C68E450028A881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC777DD421C68E450028A881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC037B1821C800CB00E90D0D /* japan */ = {
+			isa = PBXGroup;
+			children = (
+				DC037B1921C8018800E90D0D /* japanViewController.swift */,
+				DC037B1B21C801AB00E90D0D /* japanViewCell.swift */,
+			);
+			path = japan;
+			sourceTree = "<group>";
+		};
+		DC037B1D21C801E900E90D0D /* america */ = {
+			isa = PBXGroup;
+			children = (
+				DC24F55C21C81B60002E4239 /* americaViewController.swift */,
+				DC24F56221C81B9D002E4239 /* americaViewCell.swift */,
+			);
+			path = america;
+			sourceTree = "<group>";
+		};
+		DC037B1E21C801FD00E90D0D /* korea */ = {
+			isa = PBXGroup;
+			children = (
+				DC037B2121C802B500E90D0D /* koreaViewCell.swift */,
+				DC037B2321C802CF00E90D0D /* koreaViewController.swift */,
+			);
+			path = korea;
+			sourceTree = "<group>";
+		};
+		DC09ADE021C701FB001AB9D2 /* italy */ = {
+			isa = PBXGroup;
+			children = (
+				DC037B1021C7C09500E90D0D /* ItalyViewCell.swift */,
+				DC037B1221C7E33400E90D0D /* italyViewController.swift */,
+			);
+			name = italy;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DC24F55821C81AB8002E4239 /* thai */ = {
+			isa = PBXGroup;
+			children = (
+				DC24F55A21C81B49002E4239 /* thaiViewController.swift */,
+				DC24F56421C81BAA002E4239 /* thaiViewCell.swift */,
+			);
+			path = thai;
+			sourceTree = "<group>";
+		};
+		DC24F55921C81ABE002E4239 /* british */ = {
+			isa = PBXGroup;
+			children = (
+				DC24F55E21C81B7D002E4239 /* britishViewController.swift */,
+				DC24F56021C81B8F002E4239 /* britishViewCell.swift */,
+			);
+			path = british;
+			sourceTree = "<group>";
+		};
+		DC777DAF21C68E430028A881 = {
+			isa = PBXGroup;
+			children = (
+				E98F690C21C8C8F100F200B5 /* 11345_1070177503034656_4865742145209074723_n.jpg */,
+				DC24F56E21C860DB002E4239 /* bg.jpg */,
+				DC24F56F21C860DB002E4239 /* cosci.png */,
+				DC24F56D21C860DB002E4239 /* SWULOGO.png */,
+				DC24F56A21C85FC0002E4239 /* CIUWVPu.png */,
+				DC777DBA21C68E430028A881 /* foodcourt */,
+				DC777DCF21C68E450028A881 /* foodcourtTests */,
+				DC777DDA21C68E450028A881 /* foodcourtUITests */,
+				DC777DB921C68E430028A881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC777DB921C68E430028A881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC777DB821C68E430028A881 /* foodcourt.app */,
+				DC777DCC21C68E450028A881 /* foodcourtTests.xctest */,
+				DC777DD721C68E450028A881 /* foodcourtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC777DBA21C68E430028A881 /* foodcourt */ = {
+			isa = PBXGroup;
+			children = (
+				DC24F56621C82C2A002E4239 /* DetailViewController.swift */,
+				DC777DBB21C68E430028A881 /* AppDelegate.swift */,
+				DC777DBD21C68E430028A881 /* ViewController.swift */,
+				DC777DBF21C68E430028A881 /* Main.storyboard */,
+				DC777DED21C697730028A881 /* CollectionViewCell1.swift */,
+				DC777DC221C68E450028A881 /* Assets.xcassets */,
+				DC777DC421C68E450028A881 /* LaunchScreen.storyboard */,
+				DC777DC721C68E450028A881 /* Info.plist */,
+				DC037B0121C7B64E00E90D0D /* HeaderView.swift */,
+				DC09ADE021C701FB001AB9D2 /* italy */,
+				DC037B1821C800CB00E90D0D /* japan */,
+				DC037B1E21C801FD00E90D0D /* korea */,
+				DC24F55821C81AB8002E4239 /* thai */,
+				DC037B1D21C801E900E90D0D /* america */,
+				DC24F55921C81ABE002E4239 /* british */,
+			);
+			path = foodcourt;
+			sourceTree = "<group>";
+		};
+		DC777DCF21C68E450028A881 /* foodcourtTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC777DD021C68E450028A881 /* foodcourtTests.swift */,
+				DC777DD221C68E450028A881 /* Info.plist */,
+			);
+			path = foodcourtTests;
+			sourceTree = "<group>";
+		};
+		DC777DDA21C68E450028A881 /* foodcourtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC777DDB21C68E450028A881 /* foodcourtUITests.swift */,
+				DC777DDD21C68E450028A881 /* Info.plist */,
+			);
+			path = foodcourtUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC777DB721C68E430028A881 /* foodcourt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC777DE021C68E450028A881 /* Build configuration list for PBXNativeTarget "foodcourt" */;
+			buildPhases = (
+				DC777DB421C68E430028A881 /* Sources */,
+				DC777DB521C68E430028A881 /* Frameworks */,
+				DC777DB621C68E430028A881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foodcourt;
+			productName = foodcourt;
+			productReference = DC777DB821C68E430028A881 /* foodcourt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC777DCB21C68E450028A881 /* foodcourtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC777DE321C68E450028A881 /* Build configuration list for PBXNativeTarget "foodcourtTests" */;
+			buildPhases = (
+				DC777DC821C68E450028A881 /* Sources */,
+				DC777DC921C68E450028A881 /* Frameworks */,
+				DC777DCA21C68E450028A881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC777DCE21C68E450028A881 /* PBXTargetDependency */,
+			);
+			name = foodcourtTests;
+			productName = foodcourtTests;
+			productReference = DC777DCC21C68E450028A881 /* foodcourtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC777DD621C68E450028A881 /* foodcourtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC777DE621C68E450028A881 /* Build configuration list for PBXNativeTarget "foodcourtUITests" */;
+			buildPhases = (
+				DC777DD321C68E450028A881 /* Sources */,
+				DC777DD421C68E450028A881 /* Frameworks */,
+				DC777DD521C68E450028A881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC777DD921C68E450028A881 /* PBXTargetDependency */,
+			);
+			name = foodcourtUITests;
+			productName = foodcourtUITests;
+			productReference = DC777DD721C68E450028A881 /* foodcourtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC777DB021C68E430028A881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jirawat;
+				TargetAttributes = {
+					DC777DB721C68E430028A881 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DC777DCB21C68E450028A881 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DC777DB721C68E430028A881;
+					};
+					DC777DD621C68E450028A881 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DC777DB721C68E430028A881;
+					};
+				};
+			};
+			buildConfigurationList = DC777DB321C68E430028A881 /* Build configuration list for PBXProject "foodcourt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC777DAF21C68E430028A881;
+			productRefGroup = DC777DB921C68E430028A881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC777DB721C68E430028A881 /* foodcourt */,
+				DC777DCB21C68E450028A881 /* foodcourtTests */,
+				DC777DD621C68E450028A881 /* foodcourtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC777DB621C68E430028A881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98F690D21C8C8F100F200B5 /* 11345_1070177503034656_4865742145209074723_n.jpg in Resources */,
+				DC24F57021C860DC002E4239 /* SWULOGO.png in Resources */,
+				DC24F57121C860DC002E4239 /* bg.jpg in Resources */,
+				DC24F57221C860DC002E4239 /* cosci.png in Resources */,
+				DC24F56B21C85FC0002E4239 /* CIUWVPu.png in Resources */,
+				DC777DC621C68E450028A881 /* LaunchScreen.storyboard in Resources */,
+				DC777DC321C68E450028A881 /* Assets.xcassets in Resources */,
+				DC777DC121C68E430028A881 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC777DCA21C68E450028A881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC777DD521C68E450028A881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC777DB421C68E430028A881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC037B1321C7E33400E90D0D /* italyViewController.swift in Sources */,
+				DC24F56721C82C2A002E4239 /* DetailViewController.swift in Sources */,
+				DC24F55F21C81B7D002E4239 /* britishViewController.swift in Sources */,
+				DC24F56321C81B9D002E4239 /* americaViewCell.swift in Sources */,
+				DC037B0221C7B64E00E90D0D /* HeaderView.swift in Sources */,
+				DC777DBE21C68E430028A881 /* ViewController.swift in Sources */,
+				DC24F55D21C81B60002E4239 /* americaViewController.swift in Sources */,
+				DC037B1C21C801AB00E90D0D /* japanViewCell.swift in Sources */,
+				DC24F56121C81B8F002E4239 /* britishViewCell.swift in Sources */,
+				DC777DBC21C68E430028A881 /* AppDelegate.swift in Sources */,
+				DC037B1121C7C09500E90D0D /* ItalyViewCell.swift in Sources */,
+				DC24F55B21C81B49002E4239 /* thaiViewController.swift in Sources */,
+				DC037B2221C802B500E90D0D /* koreaViewCell.swift in Sources */,
+				DC037B1A21C8018800E90D0D /* japanViewController.swift in Sources */,
+				DC777DEE21C697730028A881 /* CollectionViewCell1.swift in Sources */,
+				DC24F56521C81BAA002E4239 /* thaiViewCell.swift in Sources */,
+				DC037B2421C802CF00E90D0D /* koreaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC777DC821C68E450028A881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC777DD121C68E450028A881 /* foodcourtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC777DD321C68E450028A881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC777DDC21C68E450028A881 /* foodcourtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC777DCE21C68E450028A881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC777DB721C68E430028A881 /* foodcourt */;
+			targetProxy = DC777DCD21C68E450028A881 /* PBXContainerItemProxy */;
+		};
+		DC777DD921C68E450028A881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC777DB721C68E430028A881 /* foodcourt */;
+			targetProxy = DC777DD821C68E450028A881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC777DBF21C68E430028A881 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC777DC021C68E430028A881 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC777DC421C68E450028A881 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC777DC521C68E450028A881 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC777DDE21C68E450028A881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC777DDF21C68E450028A881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC777DE121C68E450028A881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foodcourt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.foodcourt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC777DE221C68E450028A881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foodcourt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.foodcourt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC777DE421C68E450028A881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foodcourtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.foodcourtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodcourt.app/foodcourt";
+			};
+			name = Debug;
+		};
+		DC777DE521C68E450028A881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foodcourtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.foodcourtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodcourt.app/foodcourt";
+			};
+			name = Release;
+		};
+		DC777DE721C68E450028A881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foodcourtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.foodcourtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = foodcourt;
+			};
+			name = Debug;
+		};
+		DC777DE821C68E450028A881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foodcourtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.foodcourtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = foodcourt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC777DB321C68E430028A881 /* Build configuration list for PBXProject "foodcourt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC777DDE21C68E450028A881 /* Debug */,
+				DC777DDF21C68E450028A881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC777DE021C68E450028A881 /* Build configuration list for PBXNativeTarget "foodcourt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC777DE121C68E450028A881 /* Debug */,
+				DC777DE221C68E450028A881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC777DE321C68E450028A881 /* Build configuration list for PBXNativeTarget "foodcourtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC777DE421C68E450028A881 /* Debug */,
+				DC777DE521C68E450028A881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC777DE621C68E450028A881 /* Build configuration list for PBXNativeTarget "foodcourtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC777DE721C68E450028A881 /* Debug */,
+				DC777DE821C68E450028A881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC777DB021C68E430028A881 /* Project object */;
+}
